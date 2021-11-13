@@ -1,0 +1,15 @@
+profile: data-package
+name: coda2021
+title: Conferência Brasileira de Jornalismo de Dados e Métodos Digitais (CODA 2021)
+resources:
+  - dialect:
+      delimiter: ;
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: estados
+    title: Estados Brasileiros
+    path: data/data.csv
+    profile: tabular-data-resource
+    schema: schemas/tableschema.yaml
+owner_org: "controladoria-geral-do-estado-cge"
